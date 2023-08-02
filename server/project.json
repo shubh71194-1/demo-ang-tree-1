@@ -1,0 +1,204 @@
+{
+    "projects":[
+        {
+            "name":"Project-1",
+            "uri":"http://localhost:3000/Project-1"
+        },
+        {
+            "name":"Project-2",
+            "uri":"http://localhost:3000/Project-2"
+        },
+        {
+            "name":"Project-3",
+            "uri":"http://localhost:3000/Project-3"
+        }
+    ],
+    "Project-1":[
+        {
+            "name": "Module-1",
+            "type": "module",
+            "children": [
+                {
+                    "name": "Test-1",
+                    "type": "file"
+                },
+                {
+                    "name": "Test-2",
+                    "type": "file"
+                },
+                {
+                    "name": "Test-3",
+                    "type": "file"
+                }
+            ]
+        },
+        {
+            "name": "Module-2",
+            "type": "module",
+            "children": [
+              {
+                "name": "Module-2.1",
+                "type": "module",
+                "children": [
+                    {
+                        "name": "Module-2.1.1",
+                        "type": "module",
+                        "children": [
+                            {
+                                "name": "Test-1",
+                                "type": "file"
+                            },
+                            {
+                                "name": "Test-2",
+                                "type": "file"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Module-2.1.2",
+                        "type": "module",
+                        "children": [
+                            {
+                                "name": "Test-1",
+                                "type": "file"
+                            },
+                            {
+                                "name": "Test-2",
+                                "type": "file"
+                            }
+                        ]
+                    }
+                ]
+              },
+              {
+                "name": "Module-2.2",
+                "type":"module",
+                "children": [
+                {
+                    "name": "Module-2.2.1",
+                    "type":"module",
+                    "children": [
+                        {
+                            "name": "Module-2.2.1.1",
+                            "type": "module",
+                            "children": [
+                                {
+                                    "name": "Test-1",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Test-2",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Module-2.2.1.2",
+                            "type": "module",
+                            "children": [
+                                {
+                                    "name": "Test-1",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Test-2",
+                                    "type": "file"
+                                }
+                            ]
+                        }
+                    ]
+              },
+              {
+                "name": "Module-2.3",
+                "type": "module",
+                "children": [
+                    {
+                        "name": "Test-1",
+                        "type": "file"
+                    },
+                    {
+                        "name": "Test-2",
+                        "type": "file"
+                    }
+                ]
+            }
+            ]
+              }
+            ]
+        }
+    ],
+    "Project-2":[
+        {
+            "name": "Module-1",
+            "type":"module",
+            "children": [
+                {
+                    "name": "Test-1",
+                    "type": "file"
+                },
+                {
+                    "name": "Test-2",
+                    "type": "file"
+                },
+                {
+                    "name": "Test-3",
+                    "type": "file"
+                }
+            ]
+        },
+        {
+            "name": "Module-2",
+            "type":"module",
+            "children": [
+                {
+                    "name": "Module-2.1",
+                    "type": "module",
+                    "children": [
+                        {
+                            "name": "Test-1",
+                            "type": "file"
+                        },
+                        {
+                            "name": "Test-2",
+                            "type": "file"
+                        }
+                    ]
+                },
+                {
+                    "name": "Module-2.2",
+                    "type": "module",
+                    "children": [
+                        {
+                            "name": "Test-1",
+                            "type": "file"
+                        },
+                        {
+                            "name": "Test-2",
+                            "type": "file"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "Project-3":[
+        {
+            "name": "Module-1",
+            "type":"module",
+            "children": [
+                {
+                    "name": "Test-1",
+                    "type": "file"
+                },
+                {
+                    "name": "Test-2",
+                    "type": "file"
+                },
+                {
+                    "name": "Test-3",
+                    "type": "file"
+                }
+            ]
+        }
+    ]
+}
